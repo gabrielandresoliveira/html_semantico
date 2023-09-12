@@ -1,3 +1,32 @@
 html {
     scroll-behavior: smooth;/*comportamento-do-scrol; suave*/
 }
+
+.titulo-de-pag {
+    color: #fbea80;
+}
+.titulo-de-artigo {
+    color: #baab6a;
+    margin-bottom: 10px;
+}
+.titulo-de-sessao {
+    color: #426b65 ;
+}
+body {
+ text-align: justify;
+ margin: 20px 50px;
+ background-color: #fdfac7;
+}
+p{
+    line-height: 1.2;
+}
+.paragrafo-de-artigo{
+    background-color: antiquewhite;
+    padding: 20px 20px 0 20px;
+}
+article{
+    border: 4px double #000000;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 50px 0;
+}
