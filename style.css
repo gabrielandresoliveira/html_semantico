@@ -1,31 +1,45 @@
+:root {
+    --cor-primaria: #213555;
+    --cor-secundaria: #4F709C;
+    --cor-terciaria: #E5D283;
+    --cor-quartenaria: #8ECDDD;
+    --cor-de-fundo: #F0F0F0;
+    --cor-de-fundo-2: #FFFADD;
+}
+
+
+
+
+
+
 html {
     scroll-behavior: smooth;/*comportamento-do-scrol; suave*/
 }
 
 .titulo-de-pag {
-    color: #fbea80;
+    color: var(--cor-primaria);
 }
 .titulo-de-artigo {
-    color: #baab6a;
+    color: var(--cor-secundaria);
     margin-bottom: 10px;
 }
 .titulo-de-sessao {
-    color: #426b65 ;
+    color: var(--cor-terciaria);
 }
 body {
  text-align: justify;
  margin: 20px 50px;
- background-color: #fdfac7;
+ background-color: var(--cor-de-fundo);
 }
 p{
     line-height: 1.2;
 }
 .paragrafo-de-artigo{
-    background-color: antiquewhite;
+    background-color: var(--cor-de-fundo-2);
     padding: 20px 20px 0 20px;
 }
 article{
-    border: 4px double #000000;
+    border: 4px double var(--cor-quartenaria);
     padding: 20px;
     margin: 20px 0;
     border-radius: 50px 0;
