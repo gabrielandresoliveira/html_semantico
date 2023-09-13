@@ -44,3 +44,19 @@ article{
     margin: 20px 0;
     border-radius: 50px 0;
 }
+
+.menu-principal ul{
+background-color: var(--cor-de-fundo);
+}
+
+.menu-principal li{
+    color: var(--cor-de-fundo);
+}
+
+.menu-principal a {
+    color: black;
+}
+
+p + .paragrafo  {
+    padding-top: 0;
+}
